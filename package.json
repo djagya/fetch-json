@@ -1,0 +1,26 @@
+{
+  "name": "@djagya/fetch-json",
+  "version": "1.0.0",
+  "description": "Shortcut for JSON fetch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/djagya/fetch-json.git"
+  },
+  "keywords": [
+    "fetch",
+    "json"
+  ],
+  "author": "Danil Zakablukovskii <djagya@fastmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djagya/fetch-json/issues"
+  },
+  "homepage": "https://github.com/djagya/fetch-json#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0"
+  }
+}
