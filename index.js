@@ -5,6 +5,7 @@ module.exports = function fetchJson(url, body, headers = {}) {
   return fetcher(url, {
     headers: {
       "Content-Type": "application/json",
+      Accept: "application/json",
       ...headers
     },
     method: body ? "post" : "get",
